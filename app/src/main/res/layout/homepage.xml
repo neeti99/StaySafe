@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/viewTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:text="View Tips" />
+
+    <Button
+        android:id="@+id/Leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="171dp"
+        android:text="Leaderboard" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="314dp"
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/SuggestTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="239dp"
+        android:text="Suggest Tips" />
+
+    <Button
+        android:id="@+id/FileComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="389dp"
+        android:text="Lodge a complaint" />
+
+    <Button
+        android:id="@+id/Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="389dp"
+        android:text="Admin" />
+
+</RelativeLayout>

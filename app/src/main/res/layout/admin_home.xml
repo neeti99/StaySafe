@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/DirectMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post A tip" />
+
+    <Button
+        android:id="@+id/ReceivedTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Received Tips" />
+
+    <Button
+        android:id="@+id/RevVolunteers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review Volunteer Request" />
+
+    <Button
+        android:id="@+id/RevComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review Complaints" />
+</LinearLayout>
